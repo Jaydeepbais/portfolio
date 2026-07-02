@@ -499,8 +499,8 @@ img {
 }
 
 .pjDot2 {
-  width: 4px;
-  height: 4px;
+  width: 0px;
+  height: 0px;
   border-radius: 50%;
   background: rgba(255, 255, 255, .45);
 }
@@ -510,7 +510,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(13px, 1.4vw, 18px);
+  font-size: clamp(13px, 1.4vw, 20px);
   font-weight: 300;
   letter-spacing: .02em;
   color: var(--fg);
@@ -520,7 +520,7 @@ img {
 }
 
 .pjCats {
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, .6);
@@ -667,12 +667,12 @@ img {
 
 .research-item img {
   width: 100%;
-  transform: scale(0.8);
-  transition: transform 0.4s ease;
+  transform: scale(0.95);
+  transition: transform .65s ease;
 }
 
 .research-item:hover img {
-  transform: scale(1);
+  transform: scale(1.06);
 }
 
 .research-item .thumb-title {
@@ -683,7 +683,7 @@ img {
   justify-content: center;
   padding: 0.8rem;
   color: var(--fg);
-  font-size: clamp(12px, 1.2vw, 16px);
+  font-size: clamp(12px, 1.2vw, 20px);
   text-align: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 70%);
   opacity: 0;
